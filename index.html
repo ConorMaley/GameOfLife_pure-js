@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<a href="test.html">Click here to view jasmine test results</a>
+		<div class="main">
+			<title>Conway's Game of Life</title>
+			<link rel="stylesheet" href="assets/css/index.css"> 
+			
+			<h1>Conway's Game of Life</h1>
+				<h4>Made using HTML/CSS and <u>PURE</u> Javascript</h4>
+				<div>
+					<div class = "slider_container">
+						#Rows: 
+						<input type="number" value = 6 id = "x_grid" min="1" max="64" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+						#Columns: 
+						<input type="number" value = 8 id = "y_grid" min="1" max="64" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+						<button onclick="updateSize()">Update Size</button>
+					</div>
+				</div>
+
+				<div id="main_controls">
+						<button id = "run_toggle" onclick="toggleRun()">Run</button>
+						<button onclick="takeStep()">Step</button>
+						<button onclick="randomizeBoard()">Randomize</button>
+						<button onclick="clearBoard()">Clear</button>
+				</div> 
+				<div>Run speed: 
+					<input type="range" id="run_speed_slider" min="1" max="20" value="2">
+				</div>
+				<hr>
+				<div class="board_container">
+					<span id="board"  class="board"></span>
+				</div>
+
+	</div>
+	</div>
+	</head>
+	<script type="text/javascript" src="main.js"></script>
+</html>

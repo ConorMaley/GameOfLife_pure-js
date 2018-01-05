@@ -1,0 +1,52 @@
+.main {
+	text-align:	center;	
+}
+
+.slider_label {
+  	display: inline-block;
+  	text-align: left;
+}
+
+.slider_container {
+	width:100%;
+	text-align: 	center;
+}
+
+.param_slider {
+	width:10%;
+}
+
+.board {
+	background-color: #808080;
+}
+.board-container {
+	background-color: red;
+	overflow: 	hidden;
+	border: 15px solid red;
+}
+
+.cell_alive {
+	background-color: black;
+	color:black;
+	border: 1px solid #808080;
+	cursor: pointer;
+	margin: 0px 1px;
+}
+
+.cell_dead {
+	background-color: white;
+	color:white;
+	cursor: pointer;
+	border: 1px solid #808080;
+	margin: 0px 1px;
+}
+
+
+
+div {
+	
+}
+
+p {
+  text-align: justify;
+}
