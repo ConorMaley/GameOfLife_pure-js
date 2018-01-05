@@ -10,7 +10,7 @@
 			<h1>Conway's Game of Life</h1>
 				<h4>Made using HTML/CSS and <u>PURE</u> Javascript</h4>
 				<div>
-					<div class = "slider_container">
+					<div class = "input_container">
 						#Rows: 
 						<input type="number" value = 6 id = "x_grid" min="1" max="64" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
 						#Columns: 
@@ -21,7 +21,7 @@
 
 				<div id="main_controls">
 						<button id = "run_toggle" onclick="toggleRun()">Run</button>
-						<button onclick="takeStep()">Step</button>
+						<button onclick="takeSingleStep()">Step</button>
 						<button onclick="randomizeBoard()">Randomize</button>
 						<button onclick="clearBoard()">Clear</button>
 				</div> 

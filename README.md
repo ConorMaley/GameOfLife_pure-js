@@ -25,6 +25,7 @@ Data dump
 More styling (although, the simple black and white does look nice)
 Test other browsers
 More unit testing
+ - mainly for html functionality (use karma in future)
 Layout code better
  - limit globals, more clear architecture
 

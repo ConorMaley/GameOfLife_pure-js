@@ -2,26 +2,18 @@
 	text-align:	center;	
 }
 
-.slider_label {
-  	display: inline-block;
-  	text-align: left;
-}
-
-.slider_container {
+.input_container {
 	width:100%;
 	text-align: 	center;
 }
 
-.param_slider {
-	width:10%;
-}
-
 .board {
 	background-color: #808080;
+	white-space: nowrap;
+
 }
 .board-container {
 	background-color: red;
-	overflow: 	hidden;
 	border: 15px solid red;
 }
 
@@ -31,6 +23,11 @@
 	border: 1px solid #808080;
 	cursor: pointer;
 	margin: 0px 1px;
+	outline:none;
+}
+
+.cell_alive:hover {
+	border: 1px solid red;
 }
 
 .cell_dead {
@@ -39,14 +36,9 @@
 	cursor: pointer;
 	border: 1px solid #808080;
 	margin: 0px 1px;
+	outline:none;
 }
 
-
-
-div {
-	
-}
-
-p {
-  text-align: justify;
+.cell_dead:hover {
+	border: 1px solid red;
 }

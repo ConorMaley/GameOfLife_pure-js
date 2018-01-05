@@ -97,13 +97,17 @@ function drawBoard(x, y) {
 			boardElements[i][j].i = i;
 			boardElements[i][j].j = j;
 			boardElements[i][j].onclick = function() {
-				board[this.i][this.j] = !board[this.i][this.j]; 
+				flipBoard(this.i, this.j);
 				fillCell(this.i, this.j);};
 			boardDiv.appendChild(boardElements[i][j]);
 		}
 		boardDiv.appendChild(document.createElement("div"));
 	}
 	fillBoard(board);
+}
+
+function flipBoard(i, j) {
+	board[i][j] = !board[i][j]; 
 }
 
 function deleteDrawnBoard(x, y) {
@@ -201,7 +205,7 @@ function toggleRun() {
 	setRunButton();
 }
 
-function setRunButton () {
+function setRunButton() {
 	if (isRunning) {
 		document.getElementById("run_toggle").innerHTML = "Pause";
 	} else {
