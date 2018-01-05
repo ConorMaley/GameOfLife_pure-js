@@ -3,7 +3,7 @@
 
 #### Getting Started: 
 
-Simply open index.html using your favorite browser (Chrome 63 was used in manual testing. IE 10 should be min IE version (untested), unsure about Firefox & Safari). Alternatively, open in localhost using something like node.js as a server.
+Simply download as a zip and open index.html using your favorite browser (Chrome 63 was used in manual testing. IE 10 should be min IE version (untested), unsure about Firefox & Safari). Alternatively, open in localhost using something like node.js as a server.
 
 #### Description:
 This is [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) written in pure Javascript (*0 libraries/frameworks used in development! Wow!*). [Jasmine.js](https://jasmine.github.io) is used for unit testing.
